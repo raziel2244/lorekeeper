@@ -201,6 +201,7 @@ main > .row {
 
     main.container-fluid > .row {
         position: relative;
+        width: 100%;
     }
     .sidebar {
         position: absolute;
@@ -251,7 +252,8 @@ main > .row {
     padding-bottom: 0;
 }
 .site-footer .navbar .navbar-nav {
-    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-around;
 }
 .site-footer .navbar .navbar-nav .nav-link {
     padding-right: .5rem;
